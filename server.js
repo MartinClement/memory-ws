@@ -94,7 +94,7 @@ ws.on('connection', socket => {
       }, 1000)
     }
 
-    ws.to(data.roomId).emit('sendGame', GAMES[roomId])
+    // ws.to(data.roomId).emit('sendGame', GAMES[roomId])
   })
 })
 
